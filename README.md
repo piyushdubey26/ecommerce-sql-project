@@ -56,6 +56,8 @@ Import and run the script to create tables and insert data
 Test sample queries, views, and triggers
 
 🧩 ER Diagram
+![ER Diagram](![ecommerce_er_diagram](https://github.com/user-attachments/assets/84e7a763-b618-4439-991e-161279f1d071)
+
 📁 What’s Inside?
 A visual diagram of your database with:
 
@@ -66,13 +68,18 @@ Relationships shown with arrows
 📄 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute.
 
+🤝 Contributing
+Contributions are welcome! If you'd like to improve the project, feel free to fork the repo and submit a pull request.
+
 🙋‍♂️ Author
 Piyush Dubey
 📧 piyushdubey447@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/piyush-dubey-70183429a)
 
+## 🚀 How to Run This Project
 
-🤝 Contributing
-Contributions are welcome! If you'd like to improve the project, feel free to fork the repo and submit a pull request.
-
+1. Download or clone this repository
+2. Open MySQL Workbench or any SQL IDE
+3. Import and run the `Ecommerce_Order_Management.sql` file
+4. Explore data using the sample queries provided
 
