@@ -45,7 +45,7 @@ Views
 Triggers
 Sample Data Insertion
 📈 Tools Recommended
-[MySQL Workbench]
+[MySQL Workbench],
 
 
 
