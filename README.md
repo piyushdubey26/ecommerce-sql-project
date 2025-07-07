@@ -62,7 +62,7 @@ A visual diagram of your database with:
 
 Users, Products, Orders, Order_Items, Payments tables
 
-Relationships shown with arrows
+Relationships shown with arrows.
 
 📄 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute.
@@ -77,8 +77,8 @@ Piyush Dubey
 
 ## 🚀 How to Run This Project
 
-1. Download or clone this repository
-2. Open MySQL Workbench or any SQL IDE
+1. Download or clone this repository.
+2. Open MySQL Workbench or any SQL IDE.
 3. Import and run the `Ecommerce_Order_Management.sql` file
-4. Explore data using the sample queries provided
+4. Explore data using the sample queries provided.
 
