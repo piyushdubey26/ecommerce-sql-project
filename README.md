@@ -60,7 +60,7 @@ Test sample queries, views, and triggers
 📁 What’s Inside?
 A visual diagram of your database with:
 
-Users, Products, Orders, Order_Items, Payments tables
+Users,Products, Orders, Order_Items, Payments tables.
 
 Relationships shown with arrows.
 
@@ -79,6 +79,6 @@ Piyush Dubey
 
 1. Download or clone this repository.
 2. Open MySQL Workbench or any SQL IDE.
-3. Import and run the `Ecommerce_Order_Management.sql` file
+3. Import and run the `Ecommerce_Order_Management.sql` file,
 4. Explore data using the sample queries provided.
 
