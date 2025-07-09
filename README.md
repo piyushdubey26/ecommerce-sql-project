@@ -39,16 +39,18 @@ WHERE u.user_id = 1;
 
 🧠 Concepts Used
 
-Relational DB Design
-JOINS & Aggregations
-Views
-Triggers
-Sample Data Insertion
+1.Relational DB Design
+2.JOINS & Aggregations
+3.Views
+4.Triggers
+5.Sample Data Insertion
 📈 Tools Recommended
-[MySQL Workbench]
+
+[MySQL Workbench] (sql)
 
 
 🛠️ How to Run This Project
+
 Install MySQL
 Download the SQL file: [Ecommerce_Order_Management.sql]
 Import and run the script to create tables and insert data
