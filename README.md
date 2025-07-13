@@ -27,7 +27,7 @@ SELECT product_id, SUM(quantity) as total_sold
 FROM Order_Items
 GROUP BY product_id
 ORDER BY total_sold DESC
-LIMIT 5;
+LIMIT 5; 
 
 -- Products ordered by a specific user
 SELECT u.name, p.name, oi.quantity
@@ -58,7 +58,8 @@ Import and run the script to create tables and insert data
 Test sample queries, views, and triggers
 
 🧩 ER Diagram
-![ER Diagram](![ecommerce_er_diagram](https://github.com/user-attachments/assets/84e7a763-b618-4439-991e-161279f1d071)
+![ER Diagram]
+(![ecommerce_er_diagram](https://github.com/user-attachments/assets/84e7a763-b618-4439-991e-161279f1d071)
 
 📁 What’s Inside?
 A visual diagram of your database with:
@@ -80,8 +81,8 @@ Piyush Dubey
 
 ## 🚀 How to Run This Project
 
-1. Download or clone this repository.
-2.Open MySQL Workbench or any SQL IDE.
-3. Import and run the `Ecommerce_Order_Management.sql` file,
-4. Explore data using the sample queries provided.
+Download or clone this repository.
+Open MySQL Workbench or any SQL IDE.
+Import and run the `Ecommerce_Order_Management.sql` file,
+Explore data using the sample queries provided.
 
