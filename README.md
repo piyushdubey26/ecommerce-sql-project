@@ -19,9 +19,11 @@ Order_Items(order_id, product_id, quantity)
 Payments(payment_id, order_id, status)
 
 📁 File
-Ecommerce_Order_Management.sql → Full project: DDL, sample data, view, trigger
+Ecommerce_Order_Management.sql 
+→ Full project: DDL, sample data, view, trigger
 
 🧪 Sample Queries
+
 -- Top 5 best-selling products
 SELECT product_id, SUM(quantity) as total_sold
 FROM Order_Items
@@ -30,6 +32,7 @@ ORDER BY total_sold DESC
 LIMIT 5; 
 
 -- Products ordered by a specific user
+
 SELECT u.name, p.name, oi.quantity
 FROM Users u
 JOIN Orders o ON u.user_id = o.user_id
@@ -58,7 +61,8 @@ Import and run the script to create tables and insert data
 Test sample queries, views, and triggers
 
 🧩 ER Diagram
-![ER Diagram](![ecommerce_er_diagram](https://github.com/user-attachments/assets/84e7a763-b618-4439-991e-161279f1d071)
+![ER Diagram]
+(![ecommerce_er_diagram](https://github.com/user-attachments/assets/84e7a763-b618-4439-991e-161279f1d071)
 
 📁 What’s Inside?
 A visual diagram of your database with:
@@ -80,8 +84,8 @@ Piyush Dubey
 
 ## 🚀 How to Run This Project
 
-step1:Download or clone this repository.
-step2:Open MySQL Workbench or any SQL IDE.
-step3:Import and run the `Ecommerce_Order_Management.sql` file,
-step4:Explore data using the sample queries provided.
+step1: Download or clone this repository.
+step2: Open MySQL Workbench or any SQL IDE.
+step3: Import and run the `Ecommerce_Order_Management.sql` file,
+step4: Explore data using the sample queries provided.
 
