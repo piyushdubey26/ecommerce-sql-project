@@ -1,35 +1,65 @@
-# ecommerce-sql-project
-E-commerce Order Management SQL Project with Views, Joins, and Triggers
+# 🛒 E-commerce Order Management SQL Project
 
-🛒 E-Commerce Order Management SQL Project
-This project simulates the backend of an E-Commerce platform like Amazon or Flipkart using SQL.
-It includes database tables, views, sample data, and a trigger to manage product orders and payments.
+This project simulates the backend of an E-commerce platform like **Amazon** or **Flipkart** using SQL.  
+It includes schema definitions, views, sample queries, and a trigger to manage orders, products, and payments efficiently.
 
-📌 Features
-Users, Products, Orders, Order Items, Payments tables
-View for summarized order details
-Trigger to update stock after successful payment
-Sample data included
+---
 
-🗃️ Database Schema
-Users(user_id, name, address)  
-Products(product_id, name, price, stock)  
-Orders(order_id, user_id, order_date)  
-Order_Items(order_id, product_id, quantity)  
-Payments(payment_id, order_id, status)
+## 📌 Features
 
-📁 File
-Ecommerce_Order_Management.sql 
-→ Full project: DDL, sample data, view, trigger
+- ✅ **Relational DB schema** for users, products, orders, and payments  
+- ✅ **Views** for summarized order insights  
+- ✅ **Trigger** to update stock automatically after successful payment  
+- ✅ **Sample Data** to test queries  
+- ✅ **Real-world queries** like top-selling products, user order history, etc.
 
-🧪 Sample Queries
+---
 
--- Top 5 best-selling products
-SELECT product_id, SUM(quantity) as total_sold
+## 🗃️ Database Schema
+
+| Table        | Columns                                  |
+|--------------|-------------------------------------------|
+| `Users`      | `user_id`, `name`, `address`             |
+| `Products`   | `product_id`, `name`, `price`, `stock`   |
+| `Orders`     | `order_id`, `user_id`, `order_date`      |
+| `Order_Items`| `order_id`, `product_id`, `quantity`     |
+| `Payments`   | `payment_id`, `order_id`, `status`       |
+
+---
+
+## 📁 File Structure
+
+- `Ecommerce_Order_Management.sql` → Contains:
+  - Table definitions (DDL)
+  - Sample data (DML)
+  - View for order summaries
+  - Trigger to manage stock after payment
+  - Sample test queries
+
+---
+
+## 🧠 Concepts Used
+
+- Relational DB Design
+- Primary & Foreign Keys
+- JOINs and Aggregations
+- Views
+- Triggers
+- Sample Data Insertion
+
+---
+
+## 🧪 Sample Queries
+
+### 🔝 Top 5 Best-Selling Products
+```sql
+SELECT product_id, SUM(quantity) AS total_sold
 FROM Order_Items
 GROUP BY product_id
 ORDER BY total_sold DESC
-LIMIT 5; 
+LIMIT 5;
+
+
 
 -- Products ordered by a specific user
 
