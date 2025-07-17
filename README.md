@@ -59,9 +59,7 @@ GROUP BY product_id
 ORDER BY total_sold DESC
 LIMIT 5;
 
-
-
--- Products ordered by a specific user
+👤 Products Ordered by a Specific User
 
 SELECT u.name, p.name, oi.quantity
 FROM Users u
@@ -69,6 +67,10 @@ JOIN Orders o ON u.user_id = o.user_id
 JOIN Order_Items oi ON o.order_id = oi.order_id
 JOIN Products p ON oi.product_id = p.product_id
 WHERE u.user_id = 1;
+
+🔹 Tables: Users, Products, Orders, Order_Items, Payments
+🔹 Relationships visualized with foreign key arrows
+
 
 🧠 Concepts Used
 
@@ -81,14 +83,14 @@ Sample Data Insertion
 
 [MySQL Workbench] (sql)
 
+🚀 How to Run This Project
+✅ Download or Clone this repository
 
-🛠️ How to Run This Project
+💻 Open MySQL Workbench or any preferred SQL IDE
 
-Install MySQL
-Download the SQL file: [Ecommerce_Order_Management.sql]
+📂 Import and Run the Ecommerce_Order_Management.sql file
 
-Import and run the script to create tables and insert data
-Test sample queries, views, and triggers
+🔍 Execute the sample queries to explore the data
 
 🧩 ER Diagram
 ![ER Diagram]
@@ -112,10 +114,11 @@ Piyush Dubey
 📧 piyushdubey447@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/piyush-dubey-70183429a)
 
-## 🚀 How to Run This Project
+🔧 Tools Recommended
+MySQL Workbench
 
-step1: Download or clone this repository.
-step2: Open MySQL Workbench or any SQL IDE.
-step3: Import and run the `Ecommerce_Order_Management.sql` file,
-step4: Explore data using the sample queries provided.
+phpMyAdmin
 
+DBeaver
+
+VS Code + SQL extension
