@@ -103,13 +103,7 @@ Users,Products, Orders, Order_Items, Payments tables.
 
 Relationships shown with arrows.
 
-### ✅ Next Steps:
-1. Save this as `README.md` in your project folder.
-2. Run:
-```bash
-git add README.md
-git commit -m "Add polished README with schema, queries, diagram, and usage"
-git push origin main
+
 
 
 
@@ -136,3 +130,10 @@ DBeaver
 VS Code + SQL extension
 
 ---
+### ✅ Next Steps:
+1. Save this as `README.md` in your project folder.
+2. Run:
+```bash
+git add README.md
+git commit -m "Add polished README with schema, queries, diagram, and usage"
+git push origin main
